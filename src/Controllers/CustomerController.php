@@ -31,7 +31,7 @@ class CustomerController extends BaseController
         $template = 'single-customer';
         $data = [
             'title' => 'Customer',
-            'supplier' => $customer
+            'customer' => $customer
         ];
 
         $output = $this->render($template, $data);
@@ -49,7 +49,7 @@ class CustomerController extends BaseController
         $template = 'single-customer';
         $data = [
             'title' => 'Customer',
-            'supplier' => $customer
+            'customer' => $customer
         ];
 
         $output = $this->render($template, $data);
